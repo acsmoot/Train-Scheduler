@@ -25,7 +25,9 @@ function getTrainArrival(minutesTilTrain, firstTime) {
     // var diffTime = today.diff(moment(firstTimeConverted), "minutes");
   // console.log("diffTime" + diffTime.format()); 
 
-  var nextTrain = firstTime.add(minutesTilTrain, "MM/dd/YYYY HH:mm");
+  var nextTrain = moment().add(minutesTilTrain, 'minutes').format("MM/DD/YYYY HH:mm");
+  // moment().add(11, 'minutes').format('hh:mm A');
+  
   console.log("the next train" + nextTrain);
 
   return nextTrain;
