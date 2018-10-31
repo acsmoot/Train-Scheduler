@@ -1,4 +1,7 @@
 # Train-Scheduler
+https://acsmoot.github.io/Train-Scheduler/
+
+https://github.com/acsmoot/Train-Scheduler
 
 Created a train schedule app using Google Firebase to host arrival and departure data.
 
