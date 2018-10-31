@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: orangered;
+}
+
+h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+
+#currentTrainSchedule, #outputSpace {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid rgb(7, 6, 6);
+    color: rgb(44, 29, 23);
+}
+#header{
+    font-weight: strong;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+
+#currentTrainSchedule h1 {
+    color: orangered;
+}
