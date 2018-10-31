@@ -9,5 +9,5 @@ $(this) app retrieves and manipulates date and time date using Moment.js librari
 
 App will provide up-to-date information about various trains, arrival times and how many minutes remain until they arrive at their station.
 
-https://acsmoot.github.io/Train-Scheduler/
+
 
